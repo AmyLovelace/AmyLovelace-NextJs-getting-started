@@ -10,9 +10,7 @@ export const metadata: Metadata = {
    
 function PricingPage() {
     return (
-      <main className="flex flex-col items-center p-24">
-      <span className="text-7xl">Pricing Page</span>
-      </main>  
+      <span className="text text-7xl">Pricing Page</span>
     )
   }
   
