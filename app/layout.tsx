@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   description: "Generated with love by Amy Lovelace",
 };
 
+// el root layout es un HIGHER ORDER COMPONENT
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -16,7 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+       </body>
     </html>
   );
 }

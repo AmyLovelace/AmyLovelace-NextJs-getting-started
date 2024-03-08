@@ -8,9 +8,9 @@ export const metadata: Metadata = {
 
 function AboutPage() {
     return (
-      <>
-        <span>About Page</span>
-      </>
+      <main className="flex flex-col items-center p-24">
+        <span className="text-7xl">About Page</span>
+      </main>
     )
   }
   
