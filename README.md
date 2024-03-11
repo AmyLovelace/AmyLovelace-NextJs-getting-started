@@ -15,13 +15,17 @@ bun dev
 ```
 
 
-## BUILD DOCKER IMAGE
+## BUILD DOCKER IMAGE(dev)
 ```
 docker build -t nextjs-basic .
 
 ```
+## BUILD DOCKER IMAGE(prod)
+```
+docker build -t nextjs-basic -f dockerfile.prod .
+```
 
-## RUN DOCKER IMAGE
+## RUN DOCKER IMAGE 
 ```
 docker container run -p 3000:3000 nextjs-basic 
 
